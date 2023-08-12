@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import HeaderNavbar from '../components/HeaderNavbar.vue'
+import HeaderNavbar from '@/components/HeaderNavbar.vue'
 import NavbarLayout from '@/layouts/NavbarLayout.vue'
-import { useAppStore } from '../stores/index'
+import { useAppStore } from '@/stores/index'
 const message = useAppStore().app_title
 </script>
 

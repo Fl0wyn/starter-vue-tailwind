@@ -6,16 +6,16 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: () => import('../views/HomeView.vue')
+      component: () => import('@/views/HomeView.vue')
     },
     {
       path: '/project',
       name: 'Project',
-      component: () => import('../views/ProjectView.vue')
+      component: () => import('@/views/ProjectView.vue')
     },
     {
       path: '/:pathMatch(.*)*',
-      component: () => import('../views/PageNotFound.vue')
+      component: () => import('@/views/PageNotFound.vue')
     }
   ]
 })
